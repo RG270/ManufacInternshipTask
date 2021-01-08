@@ -3,6 +3,7 @@ import Button from '@material-ui/core/Button';
 import { Container, TextField, FormControlLabel, Checkbox, Grid, Link } from '@material-ui/core';
 
 class signup extends Component {
+    // Signup page contains form for creating the id, password
     render() {
         return (
             <div>

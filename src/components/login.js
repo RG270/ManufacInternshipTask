@@ -21,6 +21,7 @@ class login extends Component {
         });
     }
     
+    // Rendering the app and form to the page.
     render() {
         return (
             <div>

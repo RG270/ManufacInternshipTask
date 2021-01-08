@@ -3,6 +3,7 @@ import Button from '@material-ui/core/Button';
 import { Container } from '@material-ui/core';
 
 class userpage extends Component {
+    // Very simple and basic user page with logout button
     render() {
         return (
             <Container>

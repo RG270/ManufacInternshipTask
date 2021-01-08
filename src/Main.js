@@ -8,6 +8,7 @@ import userpage from './components/userpage'
 class Main extends Component {
     render() {
         return (
+            // Different routing depends on the URL.
             <BrowserRouter>
             <Switch> {/* The Switch decides which component to show based on the current URL.*/}
                 <Route exact path='/signup' component={signup}></Route>
